@@ -15,7 +15,7 @@ drive.mount('/content/drive')
 """Q1a. summary statistic"""
 
 import pandas as pd
-data = pd.read_csv('/content/drive/MyDrive/ingredient.csv')
+data = pd.read_csv('https://github.com/FrankPunyaBarang/RAPP_Assignment/blob/main/ingredient.csv')
 data.describe()
 
 """Q1a. parametric and non-parametric test"""
