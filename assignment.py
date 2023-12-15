@@ -93,7 +93,7 @@ plt.show()
 """Q2. descriptive statistic"""
 
 import pandas as pd
-palm_data = pd.read_csv('/content/drive/MyDrive/palm_ffb.csv')
+palm_data = pd.read_csv('https://github.com/FrankPunyaBarang/RAPP_Assignment/blob/main/palm_ffb.csv')
 palm_data.describe()
 
 """Q2. Corelation Statistics"""
